@@ -40,16 +40,16 @@ def get_submitted_records():
         return set(), {}
 
 def branch_to_sub(branch):
-    if branch == 'CSE':
-        return 'CSE : Introduction to Data Analytics(IDA)'
-    elif branch == 'MECH':
-        return 'MECH :Industrial Robotics & Automation(IRA)'
-    elif branch == 'ELPO':
-        return 'ELPO : Energy Audit & Management (EAM)'
-    elif branch == 'EXTC':
-        return 'EXTC : Introduction to Wireless Communication'
+    if branch == 'EXTC':
+        return 'EXTC : Analog Communication'
     elif branch == 'IT':
-        return 'IT : Fundamentals of Cyber Security'
+        return 'IT : Cyber Law'
+    elif branch == 'CSE':
+        return 'CSE : Basics of Computing for Engineers'
+    elif branch == 'ELPO':
+        return 'ELPO : Power Supply System'
+    elif branch == 'MECH':
+        return 'MECH : Engineering Materials'
 
 def write_to_google_sheet(row_data):
     body = {"values": [row_data]}
