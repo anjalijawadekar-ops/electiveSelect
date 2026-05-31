@@ -5,7 +5,7 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 # ------------------ CONFIG ------------------ #
-EXCEL_FILE = "Student-Data-31-05-26-2.xlsx"
+EXCEL_FILE = "Student-Data-31-05-26-3.xlsx"
 SPREADSHEET_ID = "1y8SlCPHeeUHCi1o3vfjNhEF1bi2fQHtQ4NxHeRT_Blk"  # Replace with your Sheet ID
 SHEET_NAME = "electivedata-third-year"  # Or change to your actual sheet name
 
