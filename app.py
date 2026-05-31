@@ -135,10 +135,7 @@ if st.session_state.sis_verified:
     else:
         all_elective_options = ['EXTC', 'MECH', 'CSE', 'ELPO', 'IT']
         excluded = set([br_coded, mdm_prog])
-        st.write(f" br coded:{br_coded}")
-        answer=(br_coded=='CSE') or (br_coded=='IT')
-        
-        st.write(f" br coded:{answer}")
+
         if br_coded in ['CSE', 'IT']:
             excluded.update(['CSE', 'IT'])
 
